@@ -1,5 +1,12 @@
 Flask webhook for Github
 ########################
+
+**CAUTION: We have moved all of our git presence to ` codeberg <https://codeberg.org/technikkultur-erfurt>`_. This repo is an archive.**
+
+If you want to maintain this code, feel free to either fork this repository or migrate it to the group on `codeberg <https://codeberg.org/technikkultur-erfurt`_.
+
+---
+
 A very simple github post-receive web hook handler that executes per default a pull uppon receiving. The executed action is configurable per repository.
 
 It will also verify that the POST request originated from github.com.
